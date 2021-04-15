@@ -1,0 +1,72 @@
+﻿<Page x:Class="PlaneSysWpfApp.User.UserPage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PlaneSysWpfApp.User"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UserPage2">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Padding="10" Name="datagrid1" Grid.Column="0" AutoGenerateColumns="False"  CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn  Header="订单号" Binding="{Binding Path = OrderId}"/>
+                <DataGridTextColumn Header="航班号" Binding="{Binding Path = PlaneId}"/>
+                <DataGridTemplateColumn Header="操作" Width="Auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <Button Content="详情" Click="Button_Click" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Column ="0" Grid.Row="0" VerticalAlignment="Center" Margin="80 40 0 0">
+                <StackPanel.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Background" Value="AliceBlue"/>
+                        <Setter Property="Padding" Value="10"/>
+                        <Setter Property="Margin" Value="20 10 10 10"/>
+                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock Text="订单号"/>
+                <TextBlock Text="起飞时间"/>
+                <TextBlock Text="到达时间"/>
+                <TextBlock Text="起飞城市"/>
+                <TextBlock Text="到达城市"/>
+                <TextBlock Text="票价"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column ="1" Grid.Row="0" VerticalAlignment="Center" Margin="0 40 80 0">
+                <TextBlock Name="textOrderId" Padding="10" Margin="20 10 0 10"/>
+                <TextBlock Name="textTime1" Padding="10" Margin="20 10 0 10"/>
+                <TextBlock Name="textTime2" Padding="10" Margin="20 10 0 10"/>
+                <TextBlock Name="textCity1" Padding="10" Margin="20 10 0 10"/>
+                <TextBlock Name="textCity2" Padding="10" Margin="20 10 0 10"/>
+                <TextBlock Name="textPrice" Padding="10" Margin="20 10 0 10"/>
+            </StackPanel>
+            <StackPanel Grid.ColumnSpan="2" Grid.Row="1" 
+                        Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Name="btnTicket" Content="退票" Click="BtnTicket_Click" Padding="10" Margin="20 10 20 10"/>
+                <Button Name="btn2" Content="关闭" Click="Btn2_Click" Padding="10"  Margin="20 10 20 10"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
