@@ -2,7 +2,7 @@
 飞机订票系统-大二下数据库课设作业
 
 ## 开发环境
-Visual Studio 2017
+Visual Studio 2017  
 .Net Framework 4.6.1
 
 ## 实现功能
@@ -18,3 +18,6 @@ g)修改个人信息
 a)添加航班信息  
 b)修改航班信息
 3. 数据输入输出：从txt文件中读出写入文件  
+
+## 部分运行截图
+<img src="PlaneSysWpfApp/pic/" width = "200" height = "300" alt="" align=center />
