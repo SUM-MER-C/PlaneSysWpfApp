@@ -20,4 +20,15 @@ b)修改航班信息
 3. 数据输入输出：从txt文件中读出写入文件  
 
 ## 部分运行截图
-<img src="PlaneSysWpfApp/pic/" width = "200" height = "300" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E5%BD%95%E5%85%A5%E8%88%AA%E7%8F%AD%E4%BF%A1%E6%81%AF.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E6%9C%BA%E7%A5%A8%E8%B4%AD%E4%B9%B0.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E6%B3%A8%E5%86%8C.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E8%AE%A2%E5%8D%95%E6%9F%A5%E7%9C%8B.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E8%88%AA%E7%8F%AD%E6%9F%A5%E7%9C%8B.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E8%88%AA%E7%8F%AD%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E7%99%BB%E5%BD%95.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E7%99%BB%E9%99%86%E6%88%90%E5%8A%9F.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A81.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A82.png" alt="" align=center />
+<img src="https://github.com/SUM-MER-C/PlaneSysWpfApp/blob/main/pic/%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A83.png" alt="" align=center />
